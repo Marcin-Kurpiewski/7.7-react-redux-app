@@ -3,7 +3,7 @@ const EDIT_COMMENT = 'EDIT_COMMET';
 const REMOVE_COMMENT = 'REMOVE_COMMET';
 const THUMB_UP = 'THUMB_UP';
 const THUMB_DOWN = 'THUMB_DOWN';
-
+const uuid = require('uuid');
 
 function addComment(text){
     return{

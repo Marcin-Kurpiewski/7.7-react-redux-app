@@ -1,8 +1,8 @@
-import {ADD_COMMENT} from './action';
-import {EDIT_COMMENT} from './action';
-import {REMOVE_COMMENT} from './action';
-import {THUMB_UP} from './action';
-import {THUMB_DOWN} from './action';
+import {ADD_COMMENT} from './actions';
+import {EDIT_COMMENT} from './actions';
+import {REMOVE_COMMENT} from './actions';
+import {THUMB_UP} from './actions';
+import {THUMB_DOWN} from './actions';
 
 const initialState={
     comments:[],
@@ -41,3 +41,4 @@ function reducer(state = initialState, action) {
             return state;
     }
 }
+
