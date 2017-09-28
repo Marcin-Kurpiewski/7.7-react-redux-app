@@ -8,7 +8,7 @@ const uuid = require('uuid');
 function addComment(text){
     return{
         type: ADD_COMMENT,
-        text: 'New comment !',
+        text: text,
         id: uuid.v4()
     }
 }
@@ -44,6 +44,4 @@ function thumbDown(id){
     }
 }
 
-export {ADD_COMMENT,EDIT_COMMENT, REMOVE_COMMENT, THUMB_UP, THUMB_DOWN};
-
-export {addComment, editComment, removeComment, thumbUp, thumbDown};
+export {ADD_COMMENT,EDIT_COMMENT, REMOVE_COMMENT, THUMB_UP, THUMB_DOWN, addComment, editComment, removeComment, thumbUp, thumbDown};
